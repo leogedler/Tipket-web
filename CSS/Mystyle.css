@@ -1,0 +1,547 @@
+/*Global*/
+html {
+		
+		margin: auto;
+		height:auto;
+		width:auto;
+		}
+	body{
+		margin: auto;
+		max-height:auto;
+		width: auto; 
+
+		
+
+		}
+
+
+
+
+.logo{
+
+	
+	padding-left: 12px;
+	padding-top: 20px;
+	padding-bottom: 1px;
+}
+
+.logosmall{
+
+	width:25%;
+	margin-left: 2%;
+	padding-top: 2%;
+
+}
+
+
+.screenshot{
+
+	
+	
+	width:230px;
+	margin: auto;
+	
+
+}
+
+.screenshot2{
+
+	
+	
+	width:400px;
+	text-align: center;
+	
+	margin:auto;
+	font-size: 10px;
+	
+
+}
+
+
+
+.screeshotxx{
+
+	width:50px;
+	margin: auto;
+
+}
+
+.screenshotsmall{
+	width:50%;
+	margin: auto;
+
+}
+
+
+.background {
+
+	background:url("../Images/background3.png") no-repeat center ;
+	background-size: 100% 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: 100% 100%;
+	-o-background-size: cover;
+	width:100%;
+	height:800px;
+	overflow: hidden;
+
+
+}
+
+
+.background3 {
+
+	background-color: #F1A448;
+	height:2px;
+	width:100%;
+
+}
+
+.fixed {
+	position: fixed;
+	z-index: 20;
+	box-shadow: 0 0 5px 1px #939597;
+
+	background-color: white;
+	height:95px;
+	width:100%;
+	opacity:0.95;
+
+	-moz-box-shadow: 0 0 5px 1px #939597;
+	-webkit-box-shadow: 0 0 5px 1px #939597;
+}
+
+
+
+
+.title{
+
+
+	color: white;
+	font-family: myFirstFont;
+	font-size: 300%;
+	text-align: center;
+	margin-bottom: 1%;
+	margin-top: 120px;
+
+
+}
+
+.title3{
+
+
+	color: white;
+	font-family: myFirstFont;
+	font-size: 140%;
+	text-align: center;
+	margin-bottom: 8%;
+	margin-top: 1%;
+
+
+}
+
+.title4{
+
+
+	color: white;
+	font-family: myFirstFont;
+	font-size: 280%;
+	text-align: center;
+	margin-bottom: 15%;
+	padding-top: 120px;
+
+
+}
+
+.title5{
+
+	color: white;
+	font-family: myFirstFont;
+	font-size: 250%;
+	text-align: center;
+	margin-bottom: 1%;
+	margin-top: 10%;
+
+}
+
+
+.alignbeta{
+	font-family: myFirstFont;
+	text-align: center;
+}
+
+.spacebeta{
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
+
+.spacebeta2{
+	padding-top: 5%;
+	color:#727272;
+	
+}
+
+.details{
+
+	margin-top: 10%;
+	font-family: myFirstFont;
+	text-align: center;
+	color: #727272;
+	z-index: 1;
+
+}
+
+.details2{
+
+	margin-top: 1%;
+	font-family: myFirstFont;
+	text-align: center;
+	color: #727272;
+
+}
+
+
+.download{
+	
+	text-align: center;
+
+
+}
+
+
+
+
+.downloadsize{
+margin-right: 10px;
+
+
+}
+
+.downloadsize2{
+margin-right: 10px;
+width:150px;
+
+
+}
+
+.title2{
+	font-family: myFirstFont;
+	font-size: 150%;
+	margin-top: 8%;
+	color: #F19848;
+
+}
+
+
+
+.footer{
+
+	background-color: #DDDCD6;
+	width:100%;
+	height: 60px;
+	margin-top: 120px;
+
+}
+
+.align{
+
+	padding-top: 15px;
+
+}
+
+.app{
+	font-family: myFirstFont;
+	font-size: 150%;
+	margin-top: 3%;
+	color: white;
+	text-align: center;
+	padding-top: 5%;
+
+
+}
+
+.backgroundapp{
+
+	background:url("../Images/backgroundapp.png") no-repeat center ;
+	-webkit-background-size: cover;
+	-moz-background-size: 100% 100%;
+	-o-background-size: cover;
+	width:100%;
+	height: 350px;
+	margin-top: 100px;
+	background-position: fixed;
+}
+
+.backgroundapp2{
+
+	background:url("../Images/backgroundapp2.png") no-repeat center ;
+	width:100%;
+	height: 1200px;
+	margin-top: 100px;
+	background-position: fixed;
+}
+
+
+.label1{
+
+color:white;
+}
+
+
+.robot{
+	width:2%;
+	margin-top: 8%;
+	display: inline-block;
+	float: left;
+	
+}
+
+.formspace{
+
+	margin-top:5%;
+	margin-left:18%;
+}
+
+.formspace3{
+
+	margin-top:2%;
+	margin-left:18%;
+}
+
+.formspace2{
+	margin-left:18%;
+	color: #727272
+}
+
+.formspace4{
+	margin-bottom: 1%;
+
+}
+
+.sizephoto{
+
+	width:120px;
+}
+
+.space{
+	margin-top:10%;
+	text-align: center;
+	font-family: myFirstFont;
+	color: #727272;
+}
+
+.space2{
+	text-align: center;
+	font-family: myFirstFont;
+	color: #727272;
+	margin-top: 4%;
+	font-size: 150%;
+}
+
+.space3{
+	text-align: center;
+	font-family: myFirstFont;
+	color: #727272;
+	margin-top: 12%;
+}
+
+.space4{
+	text-align: center;
+	font-family: myFirstFont;
+	color: #727272;
+	margin-top: 5%;
+	font-size: 180%;
+}
+
+.robot2{
+	margin-top:10%;
+	margin-left: 48%;
+	width:4%;
+}
+
+.robot3{
+	margin-top:4%;
+}
+
+.robotshort{
+	text-align: center;
+}
+
+.hellosize{
+	font-size: 15px;
+}
+
+
+
+
+#upload-file-container input {
+   filter: alpha(opacity=0);
+   opacity: 0;
+}
+
+.summitspace {
+
+	margin-top: 5%;
+}
+
+#loading{
+
+color: white;
+display: none;
+font-size: 80px;
+width: 80px;
+}
+
+
+
+
+#slideshow > div { 
+    position: absolute; 
+    overflow:hidden;
+ 
+    left: 10px; 
+    right: 10px; 
+   
+}
+
+.signup2{
+
+display: none;
+
+}
+
+
+
+
+
+
+@font-face
+{
+font-family: myFirstFont;
+src: url(../font/caviar.ttf);
+}
+
+
+ul {
+float:right;
+list-style-type:none; 
+
+}
+
+li {
+display:inline;
+}
+
+.head1{
+	padding-right: 20px;
+	padding-top:10px;
+
+}
+
+.how{
+	color:#F19848;
+	padding-right: 40px;
+}
+
+.invite{
+	width:150px;
+
+}
+
+.invite2{
+	width:200px;
+
+}
+
+
+.hello{
+	color: #F19848;
+}
+
+.video{
+	
+	width:80px;
+
+}
+
+.video2{
+text-align: center;
+margin-top: 50px;
+}
+
+.videosmall{
+	
+	
+text-align: center;
+}
+
+.videosmall2{
+	width:40%;
+	padding-top: 50px;
+}
+
+
+
+ .brighten img {
+  -webkit-filter: brightness(99%);
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.brighten img:hover {
+  -webkit-filter: brightness(180%);
+}
+
+.submitcolor{
+	color:white;
+	text-align: center;
+}
+
+.return {
+	width:200px;
+}
+
+
+.inactive-state{
+	background-image: url('../Images/video2.png');
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"]  {
+	width: calc(100% - 33px);
+	margin: 0px 0 10px 0;
+	padding:15px;
+	border: solid 3px #F19848;
+	font-size:20px;
+	background-color: white;
+	}	
+
+input[type="button"]  {
+	width: calc(100% - 33px);
+	margin:10px 0 10px 0;
+	padding:15px;
+	font-size:20px;
+	background-color:#F19848;
+	}	
+
+.button2{
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
