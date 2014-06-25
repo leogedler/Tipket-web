@@ -235,10 +235,33 @@ width:150px;
 
 .footer{
 
-	background-color: #DDDCD6;
+	background-color: white;
 	width:100%;
 	height: 60px;
+	margin-top: 10px;
+
+}
+
+.planilla{
+	background:url("../Images/backgroundapp.png") no-repeat center ;
+	-webkit-background-size: cover;
+	-moz-background-size: 100% 100%;
+	-o-background-size: cover;
+	width:100%;
 	margin-top: 120px;
+	height: 450px;
+
+}
+
+
+.planilla2{
+	background:url("../Images/backgroundapp.png") no-repeat center ;
+	-webkit-background-size: cover;
+	-moz-background-size: 100% 100%;
+	-o-background-size: cover;
+	width:100%;
+	margin-top: 120px;
+	height: 560px;
 
 }
 
@@ -332,8 +355,7 @@ color:white;
 .space2{
 	text-align: center;
 	font-family: myFirstFont;
-	color: #727272;
-	margin-top: 4%;
+	color: white;
 	font-size: 150%;
 }
 
@@ -350,6 +372,15 @@ color:white;
 	color: #727272;
 	margin-top: 5%;
 	font-size: 180%;
+}
+
+.space5{
+text-align: center;
+	font-family: myFirstFont;
+	color: white;
+	margin-top: 4%;
+	font-size: 190%;
+
 }
 
 .robot2{
@@ -530,6 +561,11 @@ input[type="button"]  {
 .button2{
 	margin-left: 20px;
 	margin-top: 5px;
+}
+
+.contact {
+
+	color: white;
 }
 
 
