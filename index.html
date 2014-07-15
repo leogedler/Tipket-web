@@ -228,7 +228,7 @@
 					<div class="columns">
 						<p class="space5">Get it soon on iOS and Android</p>
 						
-						<p class="space2">Sign up and get VIP access + £5 voucher when we launch</p>
+						<p class="space2">Sign up and get VIP access + $5 voucher when we launch</p>
 
 					</div>
 
@@ -255,7 +255,7 @@
 
 
 					  <div class="small-4 row">
-					  	<INPUT TYPE="button" class="button columns" NAME="button" Value="Request an Invite" onClick="sendInfo(this.form)">
+					  	<INPUT TYPE="button" class="button columns" NAME="button" id="button1" Value="Request an Invite" onClick="sendInfo(this.form)">
 					  </div>
 					</form>
 
@@ -267,7 +267,7 @@
 					<div class="columns">
 
 						<p class="space4">Great! You are on our waiting list</p>
-						<p class="space2">Want to get another £5 voucher? </br>Just share us on Twitter</p>
+						<p class="space2">Want to get another $5 voucher? </br>Just share us on Twitter</p>
 						<div class="small-4 row space2 button2">
 						  	<a href="https://twitter.com/intent/tweet?text=I%20just%20signed%20up%20on%20http%3A%2F%2Fwww.tipket.com%20for&hashtags=Beta,VIP%20access%20and%20got%20£10%20voucher%20to,buy%20used,electronics.,startup,sell%20@tipketinfo" id="tweetDiv"><img id ="twitter" class="invite2" src="Images/twitter.png"></a>
 						</div>
@@ -368,7 +368,7 @@
 
 						<p class="space5">Get it soon on iOS and Android</p>
 						
-						<p class="space2">Sign up and get VIP access + £5 voucher when we launch</p>
+						<p class="space2">Sign up and get VIP access + $5 voucher when we launch</p>
 
 					</div>
 
@@ -398,7 +398,7 @@
 					  </div>
 
 					  <div class="small-8 row">
-					  	<INPUT TYPE="button" class="button columns" NAME="button" Value="Request an Invite" onClick="sendInfo(this.form)">
+					  	<INPUT TYPE="button" class="button columns" NAME="button" id="button1" Value="Request an Invite" onClick="sendInfo(this.form)">
 					  </div>
 
 					  <div class="small-8 row">
@@ -416,7 +416,7 @@
 							<div class="columns">
 
 								<p class="space4">Great! You are on our waiting list</p>
-								<p class="space2">Want to get another £5 voucher? Just share us on Twitter</p>
+								<p class="space2">Want to get another $5 voucher? Just share us on Twitter</p>
 								<div class="small-4 row space2 button2">
 								  	<a href="https://twitter.com/intent/tweet?text=I%20just%20signed%20up%20on%20http%3A%2F%2Fwww.tipket.com%20for&hashtags=Beta,VIP%20access%20and%20got%20£10%20voucher%20to,buy%20used,electronics.,startup,sell%20@tipketinfo"><img class="invite2" src="Images/twitter.png"></a>
 								</div>
@@ -620,6 +620,11 @@
 
 		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 
+ 
+        $('#button1').on('click', function() {
+            ga('send', 'event', 'button', 'click', 'sign-up');
+        });
+ 
  
 	</script>
 
